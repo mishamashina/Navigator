@@ -2,6 +2,8 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QQuickView>
+#include <QQuickWidget>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -19,5 +21,8 @@ public:
 
 private:
     Ui::MainWindow *ui;
+
+public slots:
+    void statusChanged(QQuickWidget::Status status);
 };
 #endif // MAINWINDOW_H

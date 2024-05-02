@@ -4,7 +4,8 @@
 #include <QWidget>
 #include <QPainter>
 #include <QDebug>
-
+#include <QQuickWidget>
+#include "mainwindow.h"
 
 class WidgetMap : public QWidget
 {

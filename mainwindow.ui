@@ -48,14 +48,17 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QWidget" name="widget_2" native="true">
+   <widget class="QQuickWidget" name="quickWidget">
     <property name="geometry">
      <rect>
       <x>150</x>
-      <y>10</y>
-      <width>1131</width>
-      <height>481</height>
+      <y>0</y>
+      <width>1121</width>
+      <height>491</height>
      </rect>
+    </property>
+    <property name="resizeMode">
+     <enum>QQuickWidget::SizeRootObjectToView</enum>
     </property>
    </widget>
   </widget>
@@ -72,6 +75,11 @@
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <customwidgets>
+  <customwidget>
+   <class>QQuickWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">QtQuickWidgets/QQuickWidget</header>
+  </customwidget>
   <customwidget>
    <class>WidgetIndicators</class>
    <extends>QWidget</extends>
