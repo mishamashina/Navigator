@@ -14,13 +14,11 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
     main.cpp \
     mainwindow.cpp \
-    widgetindicators.cpp \
-    widgetmap.cpp
+    widgetindicators.cpp
 
 HEADERS += \
     mainwindow.h \
-    widgetindicators.h \
-    widgetmap.h
+    widgetindicators.h
 
 FORMS += \
     mainwindow.ui
